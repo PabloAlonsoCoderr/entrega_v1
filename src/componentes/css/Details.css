@@ -1,0 +1,21 @@
+.details_wrapper{
+    background-color: rgb(128, 0, 81);
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.details{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+    flex-wrap: wrap;
+
+}
