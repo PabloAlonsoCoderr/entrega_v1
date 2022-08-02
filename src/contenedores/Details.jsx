@@ -5,7 +5,7 @@ const productos = [
   {
     id: "1",
     nombre: "FIESTA",
-    marca: "FORD",
+    marca: "ESTA",
     precio: 1550,
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero? Est similique adipisci facilis dicta sit excepturi qui omnis impedit nobis placeat, perspiciatis soluta dolore quos mollitia labore, sunt quam",

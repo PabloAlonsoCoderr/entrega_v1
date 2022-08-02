@@ -22,8 +22,8 @@ const Nav = () => {
             </NavLink>
           </ul>
         </div>
-        <Link to="/cart">
-          <Cart className="cart" />
+        <Link to="/cart" className="cart">
+          <Cart />
         </Link>
       </div>
     </div>

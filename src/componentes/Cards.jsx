@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./css/Cards.css";
+import Incrementador from "./incrementador";
 
 const Cards = (props) => {
   return (
@@ -14,6 +15,7 @@ const Cards = (props) => {
             VER DETALLES
           </button>
         </Link>
+        <Incrementador />
       </div>
     </div>
   );
