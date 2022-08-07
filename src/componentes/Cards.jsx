@@ -15,7 +15,7 @@ const Cards = (props) => {
             VER DETALLES
           </button>
         </Link>
-        <Incrementador />
+        <Incrementador inicial={0} stock_actualizado={props.cantidad} />
       </div>
     </div>
   );

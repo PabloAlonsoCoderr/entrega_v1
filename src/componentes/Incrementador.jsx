@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Incrementador = () => {
-  const [valor, Setvalor] = useState(0);
-  const [boton, Setboton] = useState("agregar_carrito");
+const Incrementador = ({ inicial, stock_actualizado }) => {
+  const [valor, Setvalor] = useState(inicial);
+  const [boton, Setboton] = useState(true);
 
   function llamado() {
     Setboton("ver_carrito");
   }
 
   function aumentar() {
-    if (valor < 5) {
+    if (valor < stock_actualizado) {
       Setvalor(valor + 1);
     } else {
       console.log("ERROR");
@@ -27,10 +27,18 @@ const Incrementador = () => {
 
   return (
     <div>
-      <p>{valor}</p>
+      <p>
+        SOY LAS UNIDADES AGREGADAS{" "}
+        <strong style={{ color: "blue" }}>{valor}</strong>
+      </p>
+      <br></br>
+      <p>
+        SOY EL STOCK{" "}
+        <strong style={{ color: "blue" }}>{stock_actualizado}</strong>
+      </p>
       <button onClick={aumentar}>+</button>
       <button onClick={disminuir}>-</button>
-      {boton === "agregar_carrito" ? (
+      {boton === true ? (
         <button onClick={llamado}>AGREGAR</button>
       ) : (
         <Link to="/cart">

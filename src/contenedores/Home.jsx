@@ -4,7 +4,7 @@ import List from "./List";
 const Home = () => {
   return (
     <>
-      <Hero title="SOY EL TITULASO" />
+      <Hero title="1" />
       <List />
     </>
   );

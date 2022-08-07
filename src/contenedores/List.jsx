@@ -21,6 +21,7 @@ const List = () => {
               nombre={item.nombre}
               marca={item.marca}
               precio={item.precio}
+              cantidad={item.cantidad}
               id={item.id}
               key={item.id}
             />
