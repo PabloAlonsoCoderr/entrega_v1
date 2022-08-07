@@ -1,16 +1,9 @@
 import Cards from "../componentes/Cards";
-import Promesa from "../utiles/Promesa";
-import { useState, useEffect } from "react";
+import { useMask } from "../utiles/MainContext";
 import "../componentes/css/List.css";
 
 const List = () => {
-  const [valor, setValor] = useState([]);
-
-  useEffect(() => {
-    Promesa()
-      .then((resp) => setValor(resp))
-      .catch((err) => console.log(err));
-  }, []);
+  const { valor } = useMask();
 
   return (
     <div className="list_wrapper">

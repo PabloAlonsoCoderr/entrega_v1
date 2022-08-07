@@ -1,12 +1,13 @@
 import { useState, createContext, useContext } from "react";
 import { Productos } from "./Productos";
 
-const Mask = createContext([]);
-export const Mascara = createContext([]);
+export const Mask = createContext([]);
+export const useMask = () => useContext(Mask);
 
 const MainContext = ({ children }) => {
-  const pepe = "ramiro";
-  return <Mask.Provider value={pepe}>{children}</Mask.Provider>;
+  const [valor, setValor] = useState(Productos);
+
+  return <Mask.Provider value={{ valor }}>{children}</Mask.Provider>;
 };
 
 export default MainContext;

@@ -62,22 +62,22 @@ export const Productos = [
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero? Est similique adipisci facilis dicta sit excepturi qui omnis impedit nobis placeat, perspiciatis soluta dolore quos mollitia labore, sunt quam",
   },
-  {
-    id: "8",
-    cantidad: 49,
-    nombre: "S10",
-    marca: "CHEVROLET",
-    precio: 9550,
-    descripcion:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero? Est similique adipisci facilis dicta sit excepturi qui omnis impedit nobis placeat, perspiciatis soluta dolore quos mollitia labore, sunt quam",
-  },
-  {
-    id: "9",
-    cantidad: 99,
-    nombre: "CRUIZE",
-    marca: "CHEVROLET",
-    precio: 7550,
-    descripcion:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero? Est similique adipisci facilis dicta sit excepturi qui omnis impedit nobis placeat, perspiciatis soluta dolore quos mollitia labore, sunt quam",
-  },
+  // {
+  //   id: "8",
+  //   cantidad: 49,
+  //   nombre: "S10",
+  //   marca: "CHEVROLET",
+  //   precio: 9550,
+  //   descripcion:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero? Est similique adipisci facilis dicta sit excepturi qui omnis impedit nobis placeat, perspiciatis soluta dolore quos mollitia labore, sunt quam",
+  // },
+  // {
+  //   id: "9",
+  //   cantidad: 99,
+  //   nombre: "CRUIZE",
+  //   marca: "CHEVROLET",
+  //   precio: 7550,
+  //   descripcion:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero? Est similique adipisci facilis dicta sit excepturi qui omnis impedit nobis placeat, perspiciatis soluta dolore quos mollitia labore, sunt quam",
+  // },
 ];
